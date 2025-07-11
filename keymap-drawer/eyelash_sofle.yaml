@@ -265,6 +265,6 @@ combos:
   k: {t: layer1, h: toggle}
   l: [layer1, LAYER0]
 - p: [57, 59]
-  k: Gui+RGUI
+  k: Gui+;
 - p: [53, 63]
   k: Ctl+$$mdi:apple-keyboard-control$$
