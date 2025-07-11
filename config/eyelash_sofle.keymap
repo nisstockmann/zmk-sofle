@@ -48,7 +48,7 @@
         };
 
         Leaderkey {
-            bindings = <&kp LG(RGUI)>;
+            bindings = <&kp LG(SEMI)>;
             key-positions = <57 59>;
         };
 
