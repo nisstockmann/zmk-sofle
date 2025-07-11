@@ -267,4 +267,4 @@ combos:
 - p: [57, 59]
   k: Gui+;
 - p: [53, 63]
-  k: Ctl+$$mdi:apple-keyboard-control$$
+  k: Ctl+Alt+A
