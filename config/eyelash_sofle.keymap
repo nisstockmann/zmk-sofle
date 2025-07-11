@@ -53,7 +53,7 @@
         };
 
         Antinote {
-            bindings = <&kp LC(RCTRL)>;
+            bindings = <&kp LC(LA(A))>;
             key-positions = <53 63>;
         };
     };
