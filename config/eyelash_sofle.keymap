@@ -44,6 +44,7 @@
         To_Layer_1 {
             bindings = <&to 1>;
             key-positions = <56 60>;
+            layers = <1 0>;
         };
 
         Leaderkey {
