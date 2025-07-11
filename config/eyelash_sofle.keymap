@@ -50,6 +50,11 @@
             bindings = <&kp LG(RGUI)>;
             key-positions = <57 59>;
         };
+
+        Antinote {
+            bindings = <&kp LC(RCTRL)>;
+            key-positions = <53 63>;
+        };
     };
 
     keymap {
