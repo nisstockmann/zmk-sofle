@@ -61,7 +61,7 @@
 
         To_Layer_0 {
             bindings = <&tog 0>;
-            key-positions = <56 60>;
+            key-positions = <57 59>;
             layers = <1>;
         };
     };
