@@ -333,6 +333,6 @@ combos:
   k: Gui+;
 - p: [53, 63]
   k: Ctl+Alt+A
-- p: [57, 59]
+- p: [56, 60]
   k: {t: LAYER0, h: toggle}
   l: [layer1]
