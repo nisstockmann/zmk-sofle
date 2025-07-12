@@ -15,15 +15,15 @@
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
 &msc {
-    acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <400>;       // 300
+    acceleration-exponent = <10>;      // 0
+    time-to-max-speed-ms = <500>;       // 300
     delay-ms = <0>;                   // 0
     trigger-period-ms = <35>;
 };
 
 &mmv {
-    time-to-max-speed-ms = <400>;
-    acceleration-exponent = <1>;
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <10>;
     trigger-period-ms = <35>;
     delay-ms = <0>;
 };
