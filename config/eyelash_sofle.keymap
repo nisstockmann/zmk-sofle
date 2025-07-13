@@ -15,15 +15,15 @@
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
 &msc {
-    acceleration-exponent = <0.5>;      // 0
-    time-to-max-speed-ms = <500>;       // 300
+    acceleration-exponent = <0>;      // 0
+    time-to-max-speed-ms = <800>;       // 300
     delay-ms = <0>;                   // 0
     trigger-period-ms = <35>;
 };
 
 &mmv {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <0.5>;
+    time-to-max-speed-ms = <800>;
+    acceleration-exponent = <0>;
     trigger-period-ms = <35>;
     delay-ms = <0>;
 };
@@ -43,12 +43,6 @@
     combos {
         compatible = "zmk,combos";
 
-        To_Layer_1 {
-            bindings = <&to 1>;
-            key-positions = <56 60>;
-            layers = <0>;
-        };
-
         Leaderkey {
             bindings = <&kp LG(SEMI)>;
             key-positions = <57 59>;
@@ -57,12 +51,6 @@
         Antinote {
             bindings = <&kp LC(LA(A))>;
             key-positions = <53 63>;
-        };
-
-        To_Layer_0 {
-            bindings = <&tog 0>;
-            key-positions = <56 60>;
-            layers = <1>;
         };
     };
 
